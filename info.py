@@ -51,8 +51,8 @@ SUPPORT_CHAT_ID = -1002135317876
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tombot:tombot@cluster0.pwo0mgo.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "tombot")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rolexfilter:Rolexfilter@rolex.0o0saa0.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Rolexfilter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
