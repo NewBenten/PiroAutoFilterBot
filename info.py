@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '3566507'))
-API_HASH = environ.get('API_HASH', '194e4ba8b6787e11274f47ae63eb56ba')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5048328047:AAHeKjnDkJkbBFWsuMY9-WoCYplBmDjyHgI')
+API_ID = int(environ.get('API_ID', '18520457'))
+API_HASH = environ.get('API_HASH', 'e46379e792f951695508364c57ff1e1a')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6051001043:AAG4e9NLf5ZdTnU1seJkxD4m8N94Fa-BwMw')
 PORT = environ.get("PORT", "8080")
 
 # Bot settings
@@ -36,7 +36,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/72dff2b65352ba85d
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/2a888a370f479f4338f7c.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1654009706 5139420709').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1654009706 5139420709 1963729572').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
