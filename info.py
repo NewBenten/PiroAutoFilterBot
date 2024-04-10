@@ -29,10 +29,10 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 BOT_START_TIME = time()
 
 # Bot images & videos
-PICS = (environ.get('PICS', 'https://telegra.ph/file/a3da1d7c165f127083aaf.jpg https://telegra.ph/file/aaafbe4e8c53b66f5e80e.jpg https://telegra.ph/file/d81252b1df29b047186d0.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/ba460d11760d05654bbc6.jpg https://telegra.ph/file/15d698fd3d1c84f0e1b3e.jpg https://telegra.ph/file/4d21587b29df641462bda.jpg https://telegra.ph/file/0b34ad6d65d1c698f03ed.jpg https://telegra.ph/file/0deecfe10aa345c3f902a.jpg https://telegra.ph/file/5ddc8d941cf27ddda2656.jpg')).split()
 REQ_PICS = (environ.get('REQ_PICS', 'https://graph.org/file/d4e9c4acff84341c1c172.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/0593a3103ba1b9a5855bf.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/72dff2b65352ba85d0a34.mp4")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/29377418983441b309cdf.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/2a888a370f479f4338f7c.jpg")
 
 # Admins, Channels & Users
